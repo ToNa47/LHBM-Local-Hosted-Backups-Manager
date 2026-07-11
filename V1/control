@@ -1,0 +1,11 @@
+Package: local-backup-manager
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.8), python3-tk
+Maintainer: User <user@example.com>
+Description: Local Backup Manager
+ Aplikasi desktop untuk memantau perubahan file/folder secara
+ otomatis dan menyimpan backup + histori versi ke folder tujuan
+ (lokal, external drive, atau folder sync cloud).

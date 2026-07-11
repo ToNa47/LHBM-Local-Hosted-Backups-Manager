@@ -1,0 +1,18 @@
+Package: local-backup-manager
+Version: 3.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.8), python3-tk
+Maintainer: User <user@example.com>
+Description: LHBM - Local Hosted Backups Management
+ Aplikasi desktop untuk memantau (track) perubahan file/folder
+ secara otomatis dan menyimpan setiap perubahan secara hemat ruang
+ (skema manifest + delta: hanya file yang berubah yang disalin;
+ file yang sama tidak disalin ulang). Setiap titik waktu backup
+ bisa dicari lewat folder "zips" dan direcall/di-extract kapan saja
+ - LHBM merakit ulang isi lengkap titik waktu tersebut secara
+ on-demand dari rantai delta-nya. Interval cek bisa dipilih per
+ detik/menit, dan durasi tracking total diatur dalam jam (0 =
+ tanpa batas). Backup lama (format full-zip versi sebelumnya)
+ tetap bisa direcall.
