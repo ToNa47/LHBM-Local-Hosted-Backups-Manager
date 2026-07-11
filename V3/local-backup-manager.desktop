@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=LHBM - Local Hosted Backups Management
-Comment=Track perubahan file otomatis dan simpan backup zip ke lokal/cloud
-Exec=local-backup-manager
-Icon=local-backup-manager
-Terminal=false
-Type=Application
-Categories=Utility;Archiving;
